@@ -1,0 +1,167 @@
+HTML ____________
+<link rel="stylesheet" href="https://use.typekit.net/kqk3fyk.css">
+<div class='BL_logo_800'><img src='https://img.huffingtonpost.com/asset/65b96d3e2200001d00ad56f2.png' style='margin: auto; width: 90%;'></img></div>
+
+<div class='BL_logo_mobile'><img src='https://img.huffingtonpost.com/asset/65b96d3e2400003a00280022.png' style='margin: auto; width: 92%;'></img></div>
+
+<div class='BL_logo_desktop'><img src='https://img.huffingtonpost.com/asset/65b96d3c2300001b00807b0b.png' style=' margin: auto;  width: 100%;'></img></div>
+
+<div class='scrlr__image'>
+  <div style='z-index: 2' class="BL_photocred">NATE PALMER FOR HUFFPOST</div>
+  <img src='https://img.huffingtonpost.com/asset/65c54b8e2200006f00ad5e20.jpg' style='padding: 0; margin: 0;'>
+
+</div>
+
+<div class='scrlr__wrapper'>
+<div class='scrlr scrlr__dek'></div>
+
+</div>
+
+CSS_______________
+.cli-text p { 
+margin-top: 32px !important;}
+
+.BL_question {
+transform: translate(-2em);
+}
+
+.scrlr__wrapper {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  top: 0;
+  clear: both;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.scrlr__titles {
+  width: 100%;
+  top: 0;
+  color: white;
+  padding: 0 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.scrlr {
+  margin-bottom: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.scrlr__image {
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  order: 1;
+}
+.scrlr__image img {
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.BL_logo_desktop {
+ display: block;
+ width: 100%;
+  margin-top: 0;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  clear: both;
+}
+
+.BL_headline {
+  font-weight: 700 !important;
+}
+
+.BL_dek {
+  font-size: 2.6rem;
+  line-height: 2.8rem;
+  font-family: amplitude, sans-serif;
+  font-weight:500;
+padding: 0rem 7rem 0rem 7em;
+
+}
+.BL_photocred{
+  font-family: ProximaNova, sans-serif;
+  font-size: 10px;
+  color: #e6e7e8;
+  text-align: right;
+  writing-mode: vertical-rl;
+  text-orientation:sideways;
+  position: absolute;
+  margin: 3px;
+}
+
+.BL_logo_mobile{
+  display: none;
+}
+.BL_logo_800 {
+display: none;}
+
+@media only screen and (max-width: 1070px) {
+  .BL_dek {
+padding: 0rem 3rem 0rem 3rem;
+text-align: left;
+  }
+.scrlr__headline {
+padding-left: 0px;
+padding-right:0px;}
+}
+
+@media only screen and (max-width: 900px) {
+  .BL_dek {
+padding: 0rem 3rem 0rem 3rem;
+text-align: left;}
+
+ .BL_logo_800{
+  display: block;
+width: 100%;
+height: auto;
+  margin-top: 0;
+  position: absolute;
+  z-index: 2;
+  clear: both;}
+
+  .BL_logo_desktop {
+    display: none;}
+
+.scrlr__headline {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+text-align: left;}
+
+  .scrlr__body {
+      margin-bottom: 1rem;}
+}
+
+@media only screen and (max-width: 800px) {
+.BL_question{
+transform:translate(0px);}}
+@media only screen and (max-width: 600px) {
+  .BL_dek {
+padding: 0rem 0rem 0rem 0rem;
+}
+  .BL_logo_mobile{
+  display: block;
+width: 100%;
+height: auto;
+  margin-top: 0;
+  position: absolute;
+  z-index: 2;
+  clear: both;
+}
+
+  .BL_logo_desktop {
+    display: none;
+  }
+  .BL_logo_800 {
+    display: none;}
+
+}
